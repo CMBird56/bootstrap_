@@ -1,0 +1,5 @@
+<article class="intro">
+	<h2>PIZZERONI!</h2>
+	<p>Pizza is an oven-baked flat bread generally topped with tomato sauce and cheese. It is commonly supplemented with a selection of meats, vegetables and condiments. The term was first recorded in AD 997, in a Latin manuscript from Gaeta in Lazio, Central Italy.[1] The modern pizza was invented in Naples, Italy, and the dish and its variants have since become popular in many areas of the world.[2]</p>
+	<p class="hidden-sm">In 2009, upon Italy's request, Neapolitan pizza was safeguarded in the European Union as a Traditional Speciality Guaranteed dish.[3][4] The Associazione Verace Pizza Napoletana (the True Neapolitan Pizza Association) is a non-profit organization founded in 1984 with legal and operational headquarters in Naples. Its mission is to promote and protect the "true Neapolitan pizza" defined as the product made in accordance with the International Regulations for the brand.[5].</p>
+</article><!-- intro -->
