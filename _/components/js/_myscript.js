@@ -1,5 +1,10 @@
 $(function() {
-
+    
+    // activae schedule tabs
+    
+    var hash = window.location.hash; //VAZNO! :ako URL ima na kraju #nesto , da ce nam 'nesto'
+    hash && $('ul.nav a[href="' + hash + '"]').tab('show'); // ' posle "" zato sto nam treba tekst
+// ovo hash && na pocetku znaci, da ako bude imalo hasha odradi ce sledece...
 
 	//highlight the current nav
 	$("#home a:contains('Home')").parent().addClass('active');

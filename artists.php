@@ -7,15 +7,19 @@
     <link href="_/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="_/css/mystyles.css" rel="stylesheet" media="screen">
   </head>
-  <body id="artists">
+  <body id="artists" data-spy="scroll" data-target=".scrollspy"> <!-- data fore -->
 
 		<section class="container">
 			<div class="content row">
+                 <?php include "_/components/php/header.php"; ?>
 				<section class="main col col-lg-8">
-          <?php include "_/components/php/header.php"; ?>
+                     <?php include "_/components/php/article-artistlist.php"; ?>
+                     
 				</section><!-- main -->
 				<section class="sidebar col col-lg-4">
-
+                <?php include "_/components/php/aside-register.php"; ?>
+                <?php include "_/components/php/aside-lastyear.php"; ?>
+                <?php include "_/components/php/aside-accordion.php"; ?>
 				</section><!-- sidebar -->
 			</div><!-- content -->
     <?php include "_/components/php/footer.php"; ?>
